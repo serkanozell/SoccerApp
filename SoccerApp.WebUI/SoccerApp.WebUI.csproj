@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SoccerApp.Data\SoccerApp.Data.csproj" />
+    <ProjectReference Include="..\SoccerApp.Service\SoccerApp.Service.csproj" />
+  </ItemGroup>
+
+</Project>
